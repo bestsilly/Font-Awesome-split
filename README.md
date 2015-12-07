@@ -1,3 +1,16 @@
+#Personal fork of Font-Awesome
+###Motivation
+I'm forking Font-Awesome because of my annoyance with including the complete Font-Awesome css file when I'm using maximum 10-15 fonts.
+
+###What this does
+I'm simply iterating over the `icons.yml` file, replacing the `_icons.scss` with a large file `@import`ing SCSS files for each font. These `@import`s are commented out by default.
+
+###Future plans
+- Making it possible to only import necessary modules (like `large`, `list`, `rotated`, `stacked`, etc).
+- Making it possible to generate part of the font, possibly using [Fontelli CLI](https://github.com/paulyoung/fontello-cli).
+- Supporting LESS.
+- Figure out a way to automate the process of pulling through Bower and overwriting `_icons.scss` for the user's need
+
 #[Font Awesome v4.5.0](http://fontawesome.io)
 ###The iconic font and CSS framework
 
