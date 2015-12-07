@@ -34,6 +34,11 @@
   "license": "(OFL-1.1 AND MIT)",
   "dependencies": {
   },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "mkdirp": "^0.5.1",
+    "yamljs": "^0.2.4"
+  },
   "engines" : {
     "node" : ">=0.10.3"
   }
